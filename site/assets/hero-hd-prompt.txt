@@ -1,0 +1,5 @@
+Método: ferramenta integrada imagegen, edição a partir do quadro de 4,7 segundos do vídeo fornecido.
+Saída: hero-hd.png, 1024 × 1536 pixels, RGBA.
+
+Prompt:
+Use case: background-extraction / identity-preserve. Edit target: the supplied screenshot. Create a high-resolution clean photographic cutout of ONLY the smiling female dental professional from this reference, preserving her face, hair swept to the side, white lab coat, teal scrubs, dark navy folder held in her left image-side arm and relaxed other hand in coat pocket. Reconstruct fine natural photographic detail lost in video compression, crisp professional studio portrait with realistic skin and fabric. Framing: portrait from above her complete head to mid-thigh, centered, fully inside canvas, same frontal pose. Genuine transparent background with alpha, no background, NO website, NO text, NO number badges, NO gradient, NO circles, NO watermark, NO border. High quality approximately 1024 by 1536. The image will be layered on a full-width CSS gradient; all website badges are separate HTML.

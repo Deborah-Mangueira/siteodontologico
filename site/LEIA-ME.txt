@@ -1,0 +1,26 @@
+SITE COMPLETO — VERSÃO 2
+
+ABRIR
+Abra site-pronto.html com dois cliques. Fontes, fotografias, CSS e JavaScript estão incorporados. As animações funcionam sem instalação e sem internet; o mapa interativo precisa de conexão.
+Para editar, use a pasta site. index.html contém o conteúdo, style.css e refinements.css contêm o visual e script.js contém controles e animações.
+
+ALTERAÇÕES
+Texto principal de 17–18 px, botões de 14–15 px, títulos de aproximadamente 44–80 px e seções ampliadas.
+Hero com degradê em toda a largura, retrato transparente de 1024 × 1536 px, entrada com desfoque, movimento de profundidade e selos HTML separados que se movem durante a rolagem.
+Depoimentos: seção fixa, quatro cartões que aparecem um a um, entrando por baixo com rotação. O efeito acompanha a rolagem para frente e para trás. No celular, os cartões entram sobre os anteriores para conservar o tamanho de leitura.
+Seções com entrada progressiva saindo do desfoque e contadores animados.
+O navegador sinalizava redução de movimento, o que suprimia as animações na primeira versão. Como o pedido solicita explicitamente os efeitos, esta versão inicia com movimento completo. O controle de pausa do rodapé reduz os deslocamentos e interrompe movimentos automáticos; mantém a revelação dos cartões para não ocultar conteúdo. Nenhuma configuração do navegador ou do sistema é alterada.
+
+ARACAJU
+Endereço ilustrativo: Av. Beira Mar, 1250 — 13 de Julho, Aracaju/SE.
+WhatsApp ilustrativo: (79) 90000-0000.
+Telefone ilustrativo: (79) 3000-0000.
+O mapa mostra o bairro 13 de Julho. Não há confirmação de estabelecimento odontológico no número usado.
+Os números são demonstrativos, conforme solicitado. O WhatsApp não encaminha mensagens a um desconhecido. Para ativar o agendamento, preencha WHATSAPP_NUMBER em script.js com o contato real, incluindo país e DDD, somente dígitos. Atualize também textos e links em index.html.
+
+IMAGENS E FIDELIDADE
+O retrato foi recriado com a ferramenta integrada imagegen, em alta resolução a partir do vídeo; não é recuperação exata de detalhes que a gravação não contém. A foto do consultório continua sendo extraída do vídeo. Retrato: assets/hero-hd.png. Prompt: assets/hero-hd-prompt.txt.
+Textos não legíveis e tratamentos não demonstrados no vídeo foram completados para demonstração. Revise conteúdo clínico, contatos e dados antes de uso comercial.
+
+EDIÇÃO
+Alterações na pasta site não atualizam automaticamente o HTML único. Para usar os arquivos separados, abra index.html ou hospede a pasta site em um servidor estático.
