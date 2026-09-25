@@ -7,7 +7,7 @@ Evolução de uma landing page para um fluxo de solicitações com backend, banc
 - [Painel da equipe](https://siteodontologico-ten.vercel.app/app/admin.html)
 - [Verificar conexão do backend](https://siteodontologico-ten.vercel.app/api/health)
 
-**Estado da implantação:** o código funciona localmente com SQLite. Na Vercel, o formulário só grava após configurar Supabase e as variáveis abaixo. O tour consulta a API e informa o estado real. Ter código de integração não significa que Supabase ou n8n já estejam conectados.
+**Estado da implantação (25/09/2026):** site e API publicados na Vercel, conectados ao Supabase PostgreSQL. A conexão e o envio de uma solicitação fictícia pelo formulário público foram verificados em produção. O tour consulta a API e informa o estado real. O n8n ainda não está conectado; seus eventos ficam preservados na fila do banco. SQLite continua disponível para desenvolvimento local.
 
 ## O problema e o fluxo
 
