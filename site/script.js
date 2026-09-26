@@ -3,6 +3,7 @@ document.querySelectorAll('.header nav a').forEach(a=>a.addEventListener('click'
 // Configure o número real, com país e DDD, para ativar o WhatsApp.
 const WHATSAPP_NUMBER = '';
 const booking=document.querySelector('#booking');
+document.querySelectorAll('[data-book]').forEach(button=>button.addEventListener('click',()=>{if(WHATSAPP_NUMBER){window.open('https://wa.me/'+WHATSAPP_NUMBER+'?text='+encodeURIComponent('Olá! Gostaria de agendar uma avaliação.'),'_blank','noopener');}else{booking.showModal();}}));
 document.querySelectorAll('.dialog-close,.dialog-ok').forEach(b=>b.addEventListener('click',()=>booking.close()));
 booking.addEventListener('click',e=>{if(e.target===booking){const r=booking.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)booking.close();}});
 document.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)document.querySelectorAll('details').forEach(other=>{if(other!==d)other.open=false;});}));
